@@ -1,0 +1,370 @@
+[debug] [2019-08-20T07:10:27.679Z] ----------------------------------------------------------------------
+[debug] [2019-08-20T07:10:27.680Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 5004
+[debug] [2019-08-20T07:10:27.680Z] CLI Version:   7.2.4
+[debug] [2019-08-20T07:10:27.680Z] Platform:      darwin
+[debug] [2019-08-20T07:10:27.680Z] Node Version:  v10.16.3
+[debug] [2019-08-20T07:10:27.681Z] Time:          Tue Aug 20 2019 00:10:27 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-08-20T07:10:27.681Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-20T07:10:27.687Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-20T07:10:27.687Z] > authorizing via signed-in user
+[debug] [2019-08-20T07:10:27.687Z] [iam] checking project socials-3863a for permissions ["firebase.projects.get"]
+[debug] [2019-08-20T07:10:27.688Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/socials-3863a:testIamPermissions  
+
+[debug] [2019-08-20T07:10:27.915Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-20T07:10:27.916Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/socials-3863a  
+ 
+[debug] [2019-08-20T07:10:28.067Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials'...
+[info] 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5004
+[info] i  functions: Watching "/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions" for Cloud Functions...
+[debug] [2019-08-20T07:10:28.605Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:10:28.605Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:10:28.607Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:10:28.608Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:10:28.609Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[api]: http function initialized (http://localhost:5004/socials-3863a/us-central1/api).
+[debug] [2019-08-20T07:12:15.109Z] Accepted request POST /socials-3863a/us-central1/api/post --> api
+[debug] [2019-08-20T07:12:15.348Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-20T07:12:15.349Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:12:15.351Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:12:15.352Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:12:15.352Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:12:15.482Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-20T07:12:15.483Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-20T07:12:15.483Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-20T07:12:15.488Z] {"socketPath":"/var/folders/vc/xs59_79x7zd0tbr2xgmq8qq00000gn/T/firebase_emulator_invocation_17566.sock"}
+[debug] [2019-08-20T07:12:15.490Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/vc/xs59_79x7zd0tbr2xgmq8qq00000gn/T/firebase_emulator_invocation_17566.sock"}
+[debug] [2019-08-20T07:12:15.513Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-20T07:12:15.518Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-08-20T07:12:43.327Z] Accepted request POST /socials-3863a/us-central1/api/post --> api
+[debug] [2019-08-20T07:12:43.575Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-20T07:12:43.576Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:12:43.579Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:12:43.580Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:12:43.580Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:12:43.711Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-20T07:12:43.712Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-20T07:12:43.712Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-20T07:12:43.717Z] {"socketPath":"/var/folders/vc/xs59_79x7zd0tbr2xgmq8qq00000gn/T/firebase_emulator_invocation_17567.sock"}
+[debug] [2019-08-20T07:12:43.718Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/vc/xs59_79x7zd0tbr2xgmq8qq00000gn/T/firebase_emulator_invocation_17567.sock"}
+[debug] [2019-08-20T07:12:43.734Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-20T07:12:43.740Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-08-20T07:13:31.640Z] Accepted request POST /socials-3863a/us-central1/api/post --> api
+[debug] [2019-08-20T07:13:31.883Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-20T07:13:31.883Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:13:31.886Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:13:31.887Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:13:31.887Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:13:32.021Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-20T07:13:32.022Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-20T07:13:32.022Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-20T07:13:32.028Z] {"socketPath":"/var/folders/vc/xs59_79x7zd0tbr2xgmq8qq00000gn/T/firebase_emulator_invocation_17568.sock"}
+[debug] [2019-08-20T07:13:32.029Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/vc/xs59_79x7zd0tbr2xgmq8qq00000gn/T/firebase_emulator_invocation_17568.sock"}
+[debug] [2019-08-20T07:13:32.043Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-20T07:13:32.048Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-08-20T07:15:15.717Z] Accepted request POST /socials-3863a/us-central1/api/post --> api
+[debug] [2019-08-20T07:15:15.965Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-20T07:15:15.965Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:15:15.968Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:15:15.969Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:15:15.969Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:15:16.094Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-20T07:15:16.094Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-20T07:15:16.094Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-20T07:15:16.099Z] {"socketPath":"/var/folders/vc/xs59_79x7zd0tbr2xgmq8qq00000gn/T/firebase_emulator_invocation_17571.sock"}
+[debug] [2019-08-20T07:15:16.099Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/vc/xs59_79x7zd0tbr2xgmq8qq00000gn/T/firebase_emulator_invocation_17571.sock"}
+[debug] [2019-08-20T07:15:16.113Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-20T07:15:16.118Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-08-20T07:15:23.108Z] Accepted request POST /socials-3863a/us-central1/api/post --> api
+[debug] [2019-08-20T07:15:23.344Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-20T07:15:23.344Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:15:23.347Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:15:23.348Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:15:23.348Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:15:23.482Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-20T07:15:23.482Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-20T07:15:23.482Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-20T07:15:23.488Z] {"socketPath":"/var/folders/vc/xs59_79x7zd0tbr2xgmq8qq00000gn/T/firebase_emulator_invocation_17572.sock"}
+[debug] [2019-08-20T07:15:23.489Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/vc/xs59_79x7zd0tbr2xgmq8qq00000gn/T/firebase_emulator_invocation_17572.sock"}
+[debug] [2019-08-20T07:15:23.503Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-20T07:15:23.508Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-08-20T07:15:52.713Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:15:53.373Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:15:53.701Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:15:53.802Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:15:55.060Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:15:55.060Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:15:55.064Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:15:55.064Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:15:55.065Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:21:41.402Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:21:41.978Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:21:42.301Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:21:43.559Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:21:43.559Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:21:43.563Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:21:43.563Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:21:43.564Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:29:10.317Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:29:10.861Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:29:11.235Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:29:11.336Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:29:12.596Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:29:12.597Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:29:12.599Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:29:12.600Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:29:12.601Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:36:20.616Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:36:21.872Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:36:21.875Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:36:21.875Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:36:21.878Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:36:21.879Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:36:21.880Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:36:22.525Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:36:22.626Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:36:23.875Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:36:23.876Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:36:23.878Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:36:23.879Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:36:23.880Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:36:58.438Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:36:58.931Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:36:59.530Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:36:59.707Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:37:00.973Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:37:00.973Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:37:00.977Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:37:00.978Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:37:00.979Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:38:54.857Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:38:56.121Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:38:56.121Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:38:56.124Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:38:56.125Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:38:56.126Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:38:56.477Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:38:56.911Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:38:57.012Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:38:58.281Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:38:58.282Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:38:58.284Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:38:58.285Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:38:58.285Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:39:19.421Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:39:19.947Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:39:20.258Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:39:20.365Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:39:21.643Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:39:21.644Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:39:21.647Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:39:21.648Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:39:21.649Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:42:55.199Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:42:55.743Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:42:55.928Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:42:56.029Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:42:57.295Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:42:57.295Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:42:57.298Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:42:57.299Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:42:57.300Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:43:02.037Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:43:02.137Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:43:03.383Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:43:03.384Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:43:03.387Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:43:03.388Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:43:03.388Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:43:03.896Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:43:04.201Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:43:04.302Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:43:05.566Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:43:05.566Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:43:05.569Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:43:05.569Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:43:05.570Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:43:44.031Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:43:44.664Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:43:45.008Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:43:45.109Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:43:46.378Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:43:46.378Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:43:46.381Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:43:46.382Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:43:46.382Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:44:03.566Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:44:04.136Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:44:04.438Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:44:04.538Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/dbschema.js changed, reloading triggers
+[debug] [2019-08-20T07:44:05.804Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:44:05.804Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:44:05.807Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:44:05.808Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:44:05.809Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:55:39.335Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:55:39.763Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:55:40.075Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:55:40.174Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:55:41.447Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:55:41.447Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:55:41.450Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:55:41.451Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:55:41.451Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js:12
+const app = express();
+      ^
+
+SyntaxError: Identifier 'app' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:660:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-08-20T07:57:46.648Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:57:47.230Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:57:48.282Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:57:48.382Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:57:48.501Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:57:48.501Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:57:48.504Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:57:48.505Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:57:48.506Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js:11
+const app = require('express')();
+      ^
+
+SyntaxError: Identifier 'app' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:660:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-08-20T07:57:49.615Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:57:49.616Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:57:49.618Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:57:49.619Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:57:49.620Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js:11
+const app = require('express')();
+      ^
+
+SyntaxError: Identifier 'app' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:660:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-08-20T07:57:51.195Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:57:51.820Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:57:52.600Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:57:52.722Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:57:53.987Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:57:53.987Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:57:53.990Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:57:53.991Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:57:53.991Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  ReferenceError: config is not defined
+    at Object.<anonymous> (/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js:15:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:660:33
+    at Generator.next (<anonymous>)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-08-20T07:58:39.685Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:58:40.959Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:58:40.959Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:58:40.962Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:58:40.963Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:58:40.963Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js:12
+const app = express();
+      ^
+
+SyntaxError: Identifier 'app' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:660:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-08-20T07:58:41.070Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:58:41.442Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:58:41.542Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:58:42.797Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:58:42.797Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:58:42.800Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:58:42.801Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:58:42.801Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js:12
+const app = express();
+      ^
+
+SyntaxError: Identifier 'app' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:660:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-08-20T07:59:15.794Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:59:16.434Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:59:17.724Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:59:17.725Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:59:17.728Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:59:17.729Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:59:17.730Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:59:17.748Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:59:17.849Z] File /Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/index.js changed, reloading triggers
+[debug] [2019-08-20T07:59:19.098Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions","node_version":"10.16.3"}
+[debug] [2019-08-20T07:59:19.098Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T07:59:19.101Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T07:59:19.102Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T07:59:19.103Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/obi/Library/CloudStorage/iCloudDrive/Desktop/socials/functions/node_modules/firebase-functions/lib/index.js"}
